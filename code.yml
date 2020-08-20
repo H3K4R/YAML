@@ -1,0 +1,33 @@
+# YAML is not markup language
+# extensions .yml, .yaml
+
+person:
+  name: "swarnava"
+  occupation: 'programmer'
+  age: 22
+  gpa: 8.5
+  fav_num: 1e+10
+  male: true
+  birthday: 1998-09-28 02:00:00
+  flaws: null
+  #list item
+  hobbies:
+    -coding
+    -learning
+    -football
+  #other type of list 
+  movie: ["Dil Bechara", "3 idiots"]
+  friens:
+    -name: "Jhon"
+     age: 22
+    -{name: "Adam", age: 22}
+  description: >
+    YAML is a data Serialization language ,
+    It just used to store information about differnt things
+    and we can define it to define key value pairs things 
+    like Variables, lists and objects.
+    YAML is similar to JSON. YAML is super readable and super clean.
+
+
+
+
